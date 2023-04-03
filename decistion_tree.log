@@ -1,0 +1,25 @@
+|--- feature_1 <= 82.50
+|   |--- feature_0 <= 66.50
+|   |   |--- feature_1 <= 67.50
+|   |   |   |--- class: yes
+|   |   |--- feature_1 >  67.50
+|   |   |   |--- class: no
+|   |--- feature_0 >  66.50
+|   |   |--- class: yes
+|--- feature_1 >  82.50
+|   |--- feature_1 <= 95.50
+|   |   |--- feature_1 <= 90.50
+|   |   |   |--- feature_0 <= 76.00
+|   |   |   |   |--- class: yes
+|   |   |   |--- feature_0 >  76.00
+|   |   |   |   |--- feature_0 <= 81.50
+|   |   |   |   |   |--- class: no
+|   |   |   |   |--- feature_0 >  81.50
+|   |   |   |   |   |--- feature_0 <= 84.00
+|   |   |   |   |   |   |--- class: yes
+|   |   |   |   |   |--- feature_0 >  84.00
+|   |   |   |   |   |   |--- class: no
+|   |   |--- feature_1 >  90.50
+|   |   |   |--- class: no
+|   |--- feature_1 >  95.50
+|   |   |--- class: yes

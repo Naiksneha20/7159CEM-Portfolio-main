@@ -1,0 +1,15 @@
+temperature,humidity,windy,play
+85,85,0,no
+80,90,1,no
+83,86,0,yes
+70,96,0,yes
+68,80,0,yes
+65,70,1,no
+64,65,1,yes
+72,95,0,no
+69,70,0,yes
+75,80,0,yes
+75,70,1,yes
+72,90,1,yes
+81,75,0,yes
+71,91,1,no
